@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Criando variáveis no CSS para ser utilizada e fácil manutenção */
+:root {
+    --preto: rgb(63, 63, 63);
+    --branco: white;
+    --verde-agua: aquamarine;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 4px var(--preto);
+}
+
+header>nav>img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu>a>img {
+    width: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+    padding: 5px;
+}
+
+.entrar {
+    border-radius: 10px;
+    border: 2px solid var(--preto);
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.participe {
+    border-radius: 10px;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+main>img {
+    width: 100%;
+}
+
+.bloco1 {
+    background-color: var(--verde-agua);
+    text-align: center;
+    padding: 15px 250px;
+    margin-bottom: 10px;
+}
+
+.bloco1>p {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: var(--verde-agua);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card>img {
+    width: 50%;
+}
+
+.texto1 {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.texto1>h2 {
+    margin-bottom: 20px;
+}
+
+.texto1>p {
+    margin-bottom: 20px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid var(--preto);
+    margin: 20px;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.termos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
